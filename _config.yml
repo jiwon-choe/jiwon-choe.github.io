@@ -1,7 +1,14 @@
 theme: jekyll-theme-minimal
 title: Jiwon Choe
 logo: me.jpeg
-description: Computer Science PhD candidate at Brown University
+description: >
+  PhD candidate,<br>
+  Computer Science,<br>
+  Brown University
+  <br><br>
+  research interests: computer architecture, concurrent data structures and algorithms, emerging memory technologies
+  <br><br>
+  jiwon_choe [at] brown [dot] edu
 show_downloads: false
 github:
   is_project_page: false
