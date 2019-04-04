@@ -8,9 +8,9 @@ co-advised professors [Iris Bahar](https://vivo.brown.edu/display/rbahar) and [M
 My research interests are at the intersection of computer architecture and concurrent computing. 
 I am particularly interested in the hardware-software co-design of concurrent data structures and algorithms with emerging memory technologies. 
 
-I received my Bachelor's degree from [Rice University](http://www.rice.edu/), where I studied Electrical Engineering and Computer Science. 
+<!---I received my Bachelor's degree from [Rice University](http://www.rice.edu/), where I studied Electrical Engineering and Computer Science. 
 Before coming to Brown, I was at Oracle for 2.5 years, where I worked as a Software Engineer developing server hardware management tools. 
-<!---
+
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 
 [Link to another page](./another-page.html).
