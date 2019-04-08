@@ -6,13 +6,13 @@ Hi! I am a 3rd year PhD student in the Computer Science department at Brown Univ
 co-advised by professors [Iris Bahar](https://vivo.brown.edu/display/rbahar) and [Maurice Herlihy](http://cs.brown.edu/~mph/).
 
 **My research interests are at the intersection of computer architecture and concurrent computing.** 
-I am particularly interested in the hardware-software co-design of **concurrent data structures and algorithms** with emerging memory technologies, such as **compute-capable memory and non-volatile memory**. 
+I am particularly interested in the hardware-software co-design of **concurrent data structures and algorithms** with emerging memory technologies, such as **compute-capable memory** and **non-volatile memory**. 
 
 
 
 # Publications
 
-* **Jiwon Choe**, Amy Huang, Tali Moreshet, Maurice Herlihy, R. Iris Bahar. **Concurrent Data Structures with Near-Data-Processing: An Architecture-Aware Implementation**. In _31st ACM Symposium on Parallelism in Algorithms and Architectures (SPAA 2019)_.
+* **Jiwon Choe**, Amy Huang, Tali Moreshet, Maurice Herlihy, R. Iris Bahar. **Concurrent Data Structures with Near-Data-Processing: An Architecture-Aware Implementation**. In _31st ACM Symposium on Parallelism in Algorithms and Architectures (**SPAA 2019**)_.
 
 # More about me
 
