@@ -8,10 +8,11 @@ co-advised by professors [Iris Bahar](https://vivo.brown.edu/display/rbahar) and
 **My research interests are at the intersection of computer architecture and concurrent computing.** 
 I am particularly interested in the hardware-software co-design of **concurrent data structures and algorithms** with emerging memory technologies, such as **compute-capable memory** and **non-volatile memory**. 
 
+* * *
 
 # research & publications
 
-### Concurrent Data Structures with Near-Data-Processing
+## Concurrent Data Structures with Near-Data-Processing
 
 * **Jiwon Choe**, Amy Huang, Tali Moreshet, Maurice Herlihy, R. Iris Bahar. **Concurrent Data Structures with Near-Data-Processing: An Architecture-Aware Implementation**. In _31st ACM Symposium on Parallelism in Algorithms and Architectures (SPAA 2019)_.
 
@@ -22,7 +23,7 @@ This yielded a more realistic and detailed performance, energy, and power analys
 
 More recently, I have been looking into how _"large yet cache-friendly"_ concurrent data structures can be integrated with NDP, in order to take advantage of both host processor cache and computation near memory.
 
-
+* * *
 
 # more about me
 
