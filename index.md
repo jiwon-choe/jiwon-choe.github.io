@@ -2,11 +2,23 @@
 layout: default
 ---
 
-Hi! I am a 3rd year PhD student in the [Computer Science department at Brown University](http://cs.brown.edu/), 
+Hi! I am a 3rd year PhD student in the Computer Science department at Brown University, 
 co-advised by professors [Iris Bahar](https://vivo.brown.edu/display/rbahar) and [Maurice Herlihy](http://cs.brown.edu/~mph/).
 
 **My research interests are at the intersection of computer architecture and concurrent computing.** 
-I am particularly interested in the hardware-software co-design of concurrent data structures and algorithms with emerging memory technologies. 
+I am particularly interested in the hardware-software co-design of **concurrent data structures and algorithms** with emerging memory technologies, such as **compute-capable memory and non-volatile memory**. 
+
+
+
+# Publications
+
+* **Jiwon Choe**, Amy Huang, Tali Moreshet, Maurice Herlihy, R. Iris Bahar. **Concurrent Data Structures with Near-Data-Processing: An Architecture-Aware Implementation**. In _31st ACM Symposium on Parallelism in Algorithms and Architectures (SPAA 2019)_.
+
+# More about me
+
+I received my Bachelor's degree in Electrical Engineering from Rice University (along with a dual degree in Computer Science). After Rice, I was at Oracle as a Software Engineer for 2.5 years, where I developed server hardware management tools. 
+
+Fun facts: I love writing (yes, no joke! Not that it's not painful, but I love the feeling when my ideas and thoughts get written down and become a coherent story). I also love coffee, music, and taking pictures. 
 
 <!---I received my Bachelor's degree from [Rice University](http://www.rice.edu/), where I studied Electrical Engineering and Computer Science. 
 Before coming to Brown, I was at Oracle for 2.5 years, where I worked as a Software Engineer developing server hardware management tools. 
