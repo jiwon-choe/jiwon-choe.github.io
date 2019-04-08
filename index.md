@@ -15,10 +15,10 @@ I am particularly interested in the hardware-software co-design of **concurrent 
 
 * **Jiwon Choe**, Amy Huang, Tali Moreshet, Maurice Herlihy, R. Iris Bahar. **Concurrent Data Structures with Near-Data-Processing: An Architecture-Aware Implementation**. In _31st ACM Symposium on Parallelism in Algorithms and Architectures (SPAA 2019)_.
 
-Recent advances in 3D die-stacking technology have renewed interest in near-data-processing (NDP) as a solution to the memory wall problem. I am interested in improving the performance and energy efficiency of general-purpose concurrent data structures with NDP. 
+I am interested in improving the performance and energy efficiency of general-purpose concurrent data structures with _Near-Data-Processing (NDP)_. 
 
-In the **SPAA '19** paper, NDP-based concurrent data structures that leverage the flat-combining synchronization scheme were implemented and evaluated on [SMCSim](https://iis-git.ee.ethz.ch/erfan.azarkhish/SMCSim), a cycle-accurate, full-system NDP architecture simulator, extended to match our architecture assumptions. 
-This yielded a more realistic and detailed performance, energy, and power analysis, compared to prior theoretical analysis. Lightweight modifications to NDP hardware, inspired by initial analysis, further improves the performance and energy consumption of NDP-based data structures. 
+In the **SPAA '19** paper, NDP-based concurrent data structures that leverage the flat-combining synchronization scheme were implemented and evaluated on [SMCSim](https://iis-git.ee.ethz.ch/erfan.azarkhish/SMCSim), a cycle-accurate, full-system NDP architecture simulator. 
+This yielded a more realistic and detailed performance, energy, and power analysis, compared to prior theoretical analysis. Lightweight modifications to NDP hardware, inspired by initial analysis, further improves the performance and energy consumption of these data structures. 
 
 More recently, I have been looking into how _"large yet cache-friendly"_ concurrent data structures can be integrated with NDP, in order to take advantage of both host processor cache and computation near memory.
 
