@@ -6,7 +6,8 @@ Hi! I am a 3rd year PhD student in the Computer Science department at Brown Univ
 co-advised by professors [Iris Bahar](https://vivo.brown.edu/display/rbahar) and [Maurice Herlihy](http://cs.brown.edu/~mph/).
 
 My research interests are at the intersection of computer architecture and concurrent computing. 
-I am particularly interested in the **hardware-software co-design** of **concurrent data structures and algorithms** with emerging memory technologies, such as **compute-capable memory or non-volatile memory**. 
+I am particularly interested in the **hardware-software co-design** of **concurrent data structures and algorithms** with emerging memory technologies, such as **compute-capable memory** or **non-volatile memory**. 
+
 
 * * *
 
@@ -14,14 +15,14 @@ I am particularly interested in the **hardware-software co-design** of **concurr
 
 ## Concurrent Data Structures with Near-Data-Processing
 
-* **Jiwon Choe**, Amy Huang, Tali Moreshet, Maurice Herlihy, R. Iris Bahar. **Concurrent Data Structures with Near-Data-Processing: an Architecture-Aware Implementation**. In _31st ACM Symposium on Parallelism in Algorithms and Architectures (SPAA 2019)_. [[pdf](spaa19-choe.pdf)]
+* Jiwon Choe, Amy Huang, Tali Moreshet, Maurice Herlihy, R. Iris Bahar. **Concurrent Data Structures with Near-Data-Processing: an Architecture-Aware Implementation**. In _31st ACM Symposium on Parallelism in Algorithms and Architectures (SPAA 2019)_. [[pdf](spaa19-choe.pdf)]
 
 I am interested in improving the performance and energy efficiency of general-purpose concurrent data structures with _Near-Data-Processing (NDP)_. 
 
-In the **SPAA '19** paper, NDP-based concurrent data structures that leverage the flat-combining synchronization scheme were implemented and evaluated on [SMCSim](https://iis-git.ee.ethz.ch/erfan.azarkhish/SMCSim), a cycle-accurate, full-system NDP architecture simulator. 
-This yielded a more realistic and detailed performance, energy, and power analysis, compared to prior theoretical analysis. Lightweight modifications to NDP hardware, inspired by initial analysis, further improves the performance and energy consumption of these data structures. 
+In the _SPAA '19_ paper, NDP-based concurrent data structures that leverage the flat-combining synchronization scheme were implemented and evaluated on [SMCSim](https://iis-git.ee.ethz.ch/erfan.azarkhish/SMCSim), a cycle-accurate, full-system NDP architecture simulator. 
+This yielded a more realistic and detailed performance, energy, and power analysis, compared to prior theoretical analysis. We showed that lightweight hardware modifications can significantly improve the performance and energy consumption of NDP-based concurrent data structures, even without any algorithmic changes. In many cases, the resulting data structures outperform state-of-the-art concurrent data structures.
 
-More recently, I have been looking into how _"large yet cache-friendly"_ concurrent data structures can be integrated with NDP, in order to take advantage of both host processor cache and computation near memory.
+More recently, I have been looking into how _"large yet cache-friendly"_ concurrent data structures can be integrated with NDP, in order to take advantage of concurrency, host processor cache locality, and computation near memory.
 
 * * *
 
