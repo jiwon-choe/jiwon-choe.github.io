@@ -19,7 +19,7 @@ I am particularly interested in the **hardware-software co-design** of **concurr
 
 I am interested in improving the performance and energy efficiency of general-purpose concurrent data structures with _Near-Data-Processing (NDP)_. 
 
-In the _SPAA '19_ paper, NDP-based concurrent data structures that leverage the flat-combining synchronization scheme were implemented and evaluated on [SMCSim](https://iis-git.ee.ethz.ch/erfan.azarkhish/SMCSim), a cycle-accurate, full-system NDP architecture simulator. 
+In the _SPAA '19_ paper, NDP-based concurrent data structures that leverage the flat-combining synchronization scheme were implemented and evaluated on [Brown-SMCSim](https://github.com/jiwon-choe/Brown-SMCSim), a cycle-accurate, full-system NDP architecture simulator. 
 This yielded a more realistic and detailed performance, energy, and power analysis, compared to prior theoretical analysis. We showed that lightweight hardware modifications can significantly improve the performance and energy consumption of NDP-based concurrent data structures, even without any algorithmic changes. In many cases, the resulting data structures outperform state-of-the-art concurrent data structures.
 
 More recently, I have been looking into how _"large yet cache-friendly"_ concurrent data structures can be integrated with NDP, in order to take advantage of concurrency, host processor cache locality, and computation near memory.
