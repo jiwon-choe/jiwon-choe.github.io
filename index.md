@@ -8,6 +8,8 @@ co-advised by professors [Iris Bahar](https://vivo.brown.edu/display/rbahar) and
 My research interests are at the intersection of computer architecture and concurrent computing. 
 I am particularly interested in the **hardware-software co-design** of **concurrent data structures and algorithms** with emerging memory technologies, such as **compute-capable memory** or **non-volatile memory**. 
 
+My CV can be found [here](jiwonchoe-cv.pdf).
+
 
 * * *
 
@@ -30,7 +32,7 @@ More recently, I have been looking into how _"large yet cache-friendly"_ concurr
 
 I received my Bachelor's degree in Electrical Engineering from Rice University (along with a dual degree in Computer Science). After Rice, I was at Oracle as a Software Engineer for 2.5 years, where I developed server hardware management tools. 
 
-Fun facts: I love writing (yes, no joke! Not that it's not painful, but I love the feeling when my ideas and thoughts get written down and become a coherent story). I also love coffee, music, and taking pictures. 
+Fun facts: I love writing -- yes, no joke! Not that it's not painful, but I love the feeling when my ideas and thoughts get written down and become a coherent story. I am also an avid coffee drinker. Some of my favorite coffee places are Bolt Coffee (Providence, RI), Borealis Coffee Company (Riverside, RI), Ritual Coffee Roasters (San Francisco, CA), Four Barrel Coffee (San Francisco, CA), and Devout Coffee (Fremont, CA).
 
 <!---I received my Bachelor's degree from [Rice University](http://www.rice.edu/), where I studied Electrical Engineering and Computer Science. 
 Before coming to Brown, I was at Oracle for 2.5 years, where I worked as a Software Engineer developing server hardware management tools. 
