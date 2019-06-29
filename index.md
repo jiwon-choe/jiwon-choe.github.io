@@ -15,7 +15,7 @@ I am particularly interested in the **hardware-software co-design** of **concurr
 
 ## Concurrent Data Structures with Near-Data-Processing
 
-* Jiwon Choe, Amy Huang, Tali Moreshet, Maurice Herlihy, R. Iris Bahar. **Concurrent Data Structures with Near-Data-Processing: an Architecture-Aware Implementation**. In _31st ACM Symposium on Parallelism in Algorithms and Architectures (SPAA 2019)_. [[pdf](spaa19-choe.pdf)]
+* Jiwon Choe, Amy Huang, Tali Moreshet, Maurice Herlihy, R. Iris Bahar. **Concurrent Data Structures with Near-Data-Processing: an Architecture-Aware Implementation**. In _31st ACM Symposium on Parallelism in Algorithms and Architectures (SPAA 2019)_. [[pdf](spaa19-choe.pdf)][[practice talk](https://youtu.be/trjnYpnq8t4)]
 
 I am interested in improving the performance and energy efficiency of general-purpose concurrent data structures with _Near-Data-Processing (NDP)_. 
 
