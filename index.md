@@ -8,7 +8,7 @@ co-advised by professors [Iris Bahar](https://vivo.brown.edu/display/rbahar) and
 My research interests are at the intersection of computer architecture and concurrent computing. 
 I am particularly interested in the **hardware-software co-design** of **concurrent data structures and algorithms** with emerging memory technologies, such as **compute-capable memory** or **non-volatile memory**. 
 
-My CV can be found [here](jiwonchoe-cv.pdf).
+[My CV can be found here](jiwonchoe-cv.pdf).
 
 
 * * *
@@ -32,7 +32,14 @@ More recently, I have been looking into how _"large yet cache-friendly"_ concurr
 
 I received my Bachelor's degree in Electrical Engineering from Rice University (along with a dual degree in Computer Science). After Rice, I was at Oracle as a Software Engineer for 2.5 years, where I developed server hardware management tools. 
 
-Fun facts: I love writing -- yes, no joke! Not that it's not painful, but I love the feeling when my ideas and thoughts get written down and become a coherent story. I am also an avid coffee drinker. Some of my favorite coffee places are Bolt Coffee (Providence, RI), Borealis Coffee Company (Riverside, RI), Ritual Coffee Roasters (San Francisco, CA), Four Barrel Coffee (San Francisco, CA), and Devout Coffee (Fremont, CA).
+I am a recipient the [Cadence Women in Technology Scholarship](https://community.cadence.com/cadence_blogs_8/b/insights-culture/posts/the-cadence-women-in-technology-scholarship-winners). As part of the application, I wrote an essay about the challenges that I have faced as a female in STEM, and I recently found out that [the essay had been shared on the Cadence blog](https://community.cadence.com/cadence_blogs_8/b/on-the-beat/posts/insights-from-the-cadence-women-in-technology-scholarship-winners)! 
+My story is not all that dramatic, but it is an honest reflection of how the discrimination towards women in STEM had misguided me in the past and how I -- as a fellow woman -- might have been harmful to the community. 
+
+Other random fun facts about me:
+
+I love writing -- yes, no joke! Not that it's not painful, but I love the feeling when my ideas and thoughts get written down and become a coherent story. 
+
+I am also an avid coffee drinker. Some of my favorite coffee places are Bolt Coffee (Providence, RI), Borealis Coffee Company (Riverside, RI), Ritual Coffee Roasters (San Francisco, CA), Four Barrel Coffee (San Francisco, CA), and Devout Coffee (Fremont, CA).
 
 <!---I received my Bachelor's degree from [Rice University](http://www.rice.edu/), where I studied Electrical Engineering and Computer Science. 
 Before coming to Brown, I was at Oracle for 2.5 years, where I worked as a Software Engineer developing server hardware management tools. 
