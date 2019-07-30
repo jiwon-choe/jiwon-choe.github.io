@@ -33,7 +33,7 @@ More recently, I have been looking into how _"large yet cache-friendly"_ concurr
 I received my Bachelor's degree in Electrical Engineering from Rice University (along with a dual degree in Computer Science). After Rice, I was at Oracle as a Software Engineer for 2.5 years, where I developed server hardware management tools. 
 
 I am a recipient the [Cadence Women in Technology Scholarship](https://community.cadence.com/cadence_blogs_8/b/insights-culture/posts/the-cadence-women-in-technology-scholarship-winners). As part of the application, I wrote an essay about the challenges that I have faced as a female in STEM, and I recently found out that [the essay had been shared on the Cadence blog](https://community.cadence.com/cadence_blogs_8/b/on-the-beat/posts/insights-from-the-cadence-women-in-technology-scholarship-winners)! 
-My story is not all that dramatic, but it is an honest reflection of how the discrimination towards women in STEM had misguided me in the past and how I -- as a fellow woman -- might have been harmful to the community. 
+My story is not all that dramatic, but it is an honest reflection of how the discrimination towards women in STEM had misguided me in the past and how my own misperceptions may have harmed the community, even as a fellow woman. 
 
 Other random fun facts about me:
 
