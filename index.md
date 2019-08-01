@@ -26,6 +26,15 @@ This yielded a more realistic and detailed performance, energy, and power analys
 
 More recently, I have been looking into how _"large yet cache-friendly"_ concurrent data structures can be integrated with NDP, in order to take advantage of concurrency, host processor cache locality, and computation near memory.
 
+
+## Impact of Compute-Capable Memory on Memory-Hard Cryptographic Functions
+
+* Jiwon Choe, Tali Moreshet, R. Iris Bahar, Maurice Herlihy. **Attacking Memory-Hard Scrypt with Near-Data-Processing** (extended abstract). In _The International Symposium on Memory Systems (MEMSYS 2019)_. (_to appear_)
+
+The fact that memory access operations require much more time and energy than simple logic operations in a traditional DRAM-based main memory architecture is exploited to build time-consuming and power-hungry _memory-hard_ cryptographic functions, which serve the purpose of hindering brute-force security attacks. 
+
+The security of these memory-hard functions depend entirely on the non-trivial costs of memory access. However, various compute-capable memory technologies have recently emerged as promising ways around the memory wall. As a preliminary investigation into how compute-capable memory can impact the security of memory-hard functions, we looked into _scrypt_, a widely-used memory-hard PBKDF, and how it can be accelerated with near-data-processing. 
+
 * * *
 
 # more about me
