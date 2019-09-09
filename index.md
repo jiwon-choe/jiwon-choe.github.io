@@ -24,12 +24,12 @@ I am interested in improving the performance and energy efficiency of general-pu
 In the _SPAA '19_ paper, NDP-based concurrent data structures that leverage the flat-combining synchronization scheme were implemented and evaluated on [Brown-SMCSim](https://github.com/jiwon-choe/Brown-SMCSim), a cycle-accurate, full-system NDP architecture simulator. 
 This yielded a more realistic and detailed performance, energy, and power analysis, compared to prior theoretical analysis. We showed that lightweight hardware modifications can significantly improve the performance and energy consumption of NDP-based concurrent data structures, even without any algorithmic changes. In many cases, the resulting data structures outperform state-of-the-art concurrent data structures.
 
-More recently, I have been looking into how _"large yet cache-friendly"_ concurrent data structures can be integrated with NDP, in order to take advantage of concurrency, host processor cache locality, and computation near memory.
+More recently, I have been looking into how _"large yet cache-friendly"_ concurrent data structures can be integrated with NDP, in order to take advantage of concurrency, host processor cache locality, and computation near memory. I will be presenting my preliminary work in this (**Hybrid Skiplists: Combining the Best of Near-Data-Processing and Lock-Free Algorithms**) at MICRO '19 Student Research Competition.
 
 
 ## Impact of Compute-Capable Memory on Memory-Hard Cryptographic Functions
 
-* Jiwon Choe, Tali Moreshet, R. Iris Bahar, Maurice Herlihy. **Attacking Memory-Hard Scrypt with Near-Data-Processing** (extended abstract). In _The International Symposium on Memory Systems (MEMSYS 2019)_. (_to appear_)
+* Jiwon Choe, Tali Moreshet, R. Iris Bahar, Maurice Herlihy. **Attacking Memory-Hard Scrypt with Near-Data-Processing** (extended abstract). In _The International Symposium on Memory Systems (MEMSYS 2019)_. [[pdf](memsys19-choe.pdf)]
 
 The fact that memory access operations require much more time and energy than simple logic operations in a traditional DRAM-based main memory architecture is exploited to build time-consuming and power-hungry _memory-hard_ cryptographic functions, which serve the purpose of hindering brute-force security attacks. 
 
