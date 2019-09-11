@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Hi! I am a 3rd year PhD student in the Computer Science department at Brown University, 
+Hi! I am a 4th year PhD student in the Computer Science department at Brown University, 
 co-advised by professors [Iris Bahar](https://vivo.brown.edu/display/rbahar) and [Maurice Herlihy](http://cs.brown.edu/~mph/).
 
 My research interests are at the intersection of computer architecture and concurrent computing. 
