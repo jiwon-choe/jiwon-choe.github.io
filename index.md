@@ -29,7 +29,7 @@ More recently, I have been looking into how _"large yet cache-friendly"_ concurr
 
 ## Impact of Compute-Capable Memory on Memory-Hard Cryptographic Functions
 
-* Jiwon Choe, Tali Moreshet, R. Iris Bahar, Maurice Herlihy. **Attacking Memory-Hard Scrypt with Near-Data-Processing** (extended abstract). In _The International Symposium on Memory Systems (MEMSYS 2019)_. [[pdf](memsys19-choe.pdf)]
+* Jiwon Choe, Tali Moreshet, R. Iris Bahar, Maurice Herlihy. **Attacking Memory-Hard Scrypt with Near-Data-Processing** (extended abstract). In _The International Symposium on Memory Systems (MEMSYS 2019)_. [[pdf](memsys19-choe.pdf)][[practice talk](https://youtu.be/94dx7xmZBAM)]
 
 The fact that memory access operations require much more time and energy than simple logic operations in a traditional DRAM-based main memory architecture is exploited to build time-consuming and power-hungry _memory-hard_ cryptographic functions, which serve the purpose of hindering brute-force security attacks. 
 
