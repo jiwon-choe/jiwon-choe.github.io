@@ -18,13 +18,14 @@ I am particularly interested in the **hardware-software co-design** of **concurr
 ## Concurrent Data Structures with Near-Data-Processing
 
 * Jiwon Choe, Amy Huang, Tali Moreshet, Maurice Herlihy, R. Iris Bahar. **Concurrent Data Structures with Near-Data-Processing: an Architecture-Aware Implementation**. In _31st ACM Symposium on Parallelism in Algorithms and Architectures (SPAA 2019)_. [[pdf](spaa19-choe.pdf)][[practice talk](https://youtu.be/trjnYpnq8t4)]
+* Jiwon Choe, Tali Moreshet, Maurice Herlihy, R. Iris Bahar. **Hybrid Skiplists: Combining the Best of Near-Data-Processing and Lock-Free Algorithms**. _MICRO-52 Student Research Competition_. [[poster](micro19-poster-final.pdf)]
 
 I am interested in improving the performance and energy efficiency of general-purpose concurrent data structures with _Near-Data-Processing (NDP)_. 
 
 In the _SPAA '19_ paper, NDP-based concurrent data structures that leverage the flat-combining synchronization scheme were implemented and evaluated on [Brown-SMCSim](https://github.com/jiwon-choe/Brown-SMCSim), a cycle-accurate, full-system NDP architecture simulator. 
 This yielded a more realistic and detailed performance, energy, and power analysis, compared to prior theoretical analysis. We showed that lightweight hardware modifications can significantly improve the performance and energy consumption of NDP-based concurrent data structures, even without any algorithmic changes. In many cases, the resulting data structures outperform state-of-the-art concurrent data structures.
 
-More recently, I have been looking into how _"large yet cache-friendly"_ concurrent data structures can be integrated with NDP, in order to take advantage of concurrency, host processor cache locality, and computation near memory. I will be presenting my preliminary work in this (**Hybrid Skiplists: Combining the Best of Near-Data-Processing and Lock-Free Algorithms**) at MICRO '19 Student Research Competition.
+More recently, I have been looking into how _"large yet cache-friendly"_ concurrent data structures can be integrated with NDP, in order to take advantage of concurrency, host processor cache locality, and computation near memory. The poster on **Hybrid Skiplists** summarizes the preliminary work in this direction. 
 
 
 ## Impact of Compute-Capable Memory on Memory-Hard Cryptographic Functions
