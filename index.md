@@ -6,9 +6,10 @@ Hi! I am a 5th year PhD student in the Computer Science department at Brown Univ
 co-advised by professors [Iris Bahar](https://vivo.brown.edu/display/rbahar) and [Maurice Herlihy](http://cs.brown.edu/~mph/).
 
 My research interests are at the intersection of computer architecture and concurrent computing. 
-I am particularly interested in the **hardware-software co-design** of **concurrent data structures and algorithms** with emerging memory technologies, such as **compute-capable memory** or **non-volatile memory**. 
+I am particularly interested in the **hardware-software co-design** of **concurrent data structures** with **near-data processing (NDP)** architectures. 
+This is an exciting area of research, because the **NDP-aware data structures** must be carefully designed to preserve the high concurrency, correctness guarantees, and at times high on-chip cache locality provided by existing data structures which are highly optimized for conventional architectures. At the same time, they must take full advantage of the features and work around the challenges introduced by the new architecture. 
 
-[My CV can be found here](jiwonchoe-cv.pdf).
+[My CV can be found here](jiwonchoe-cv.pdf). My expected date of graduation is December 2021.
 
 
 * * *
