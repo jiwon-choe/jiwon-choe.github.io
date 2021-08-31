@@ -2,7 +2,7 @@
 layout: default
 ---
 
-Hi! I am a 5th year PhD student in the Computer Science department at Brown University, 
+Hi! I am a 6th year PhD student in the Computer Science department at Brown University, 
 co-advised by professors [Iris Bahar](https://vivo.brown.edu/display/rbahar) and [Maurice Herlihy](http://cs.brown.edu/~mph/).
 
 My research interests are at the intersection of computer architecture and concurrent computing. 
@@ -26,7 +26,7 @@ I am interested in improving the performance and energy efficiency of general-pu
 In the _SPAA '19_ paper, NDP-based concurrent data structures that leverage the flat-combining synchronization scheme were implemented and evaluated on [Brown-SMCSim](https://github.com/jiwon-choe/Brown-SMCSim), a cycle-accurate, full-system NDP architecture simulator. 
 This yielded a more realistic and detailed performance, energy, and power analysis, compared to prior theoretical analysis. We showed that lightweight hardware modifications can significantly improve the performance and energy consumption of NDP-based concurrent data structures, even without any algorithmic changes. In many cases, the resulting data structures outperform state-of-the-art concurrent data structures.
 
-More recently, I have been looking into how _"large yet cache-friendly"_ concurrent data structures can be integrated with NDP, in order to take advantage of concurrency, host processor cache locality, and computation near memory. The poster on **Hybrid Skiplists** summarizes the preliminary work in this direction. 
+More recently, I have been looking into how _"large yet cache-friendly"_ concurrent data structures can be integrated with NDP, in order to take advantage of concurrency, host processor cache locality, and computation near memory. The poster on **hybrid skiplists** summarizes the preliminary work in this direction. 
 
 
 ## Impact of Compute-Capable Memory on Memory-Hard Cryptographic Functions
