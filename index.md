@@ -9,7 +9,7 @@ My research interests are at the intersection of computer architecture and concu
 I am particularly interested in the **hardware-software co-design** of **concurrent data structures** with **near-data processing (NDP)** architectures. 
 This is an exciting area of research, because the **NDP-aware data structures** must be carefully designed to preserve the high concurrency, correctness guarantees, and at times high on-chip cache locality provided by existing data structures which are highly optimized for conventional architectures. At the same time, they must take full advantage of the features and work around the challenges introduced by the new architecture. 
 
-[My CV can be found here](jiwonchoe-cv.pdf). My expected date of graduation is December 2021.
+[My CV can be found here](jiwonchoe-cv-industry.pdf). My expected date of graduation is December 2021.
 
 
 * * *
