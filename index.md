@@ -6,36 +6,36 @@ Hi! I am a 6th year PhD student in the Computer Science department at Brown Univ
 co-advised by professors [Iris Bahar](https://vivo.brown.edu/display/rbahar) and [Maurice Herlihy](http://cs.brown.edu/~mph/).
 
 My research interests are at the intersection of computer architecture and concurrent computing. 
-I am particularly interested in the **hardware-software co-design** of **concurrent data structures** with **near-data processing (NDP)** architectures. 
-This is an exciting area of research, because the **NDP-aware data structures** must be carefully designed to preserve the high concurrency, correctness guarantees, and at times high on-chip cache locality provided by existing data structures which are highly optimized for conventional architectures. At the same time, they must take full advantage of the features and work around the challenges introduced by the new architecture. 
+I am particularly interested in the **hardware-software co-design** of **concurrent data structures** with **near-memory processing (NMP)** architectures. 
+This is an exciting area of research, because the **NMP-aware data structures** must be carefully designed to preserve the high concurrency, correctness guarantees, and at times high on-chip cache locality provided by existing data structures which are highly optimized for conventional architectures. At the same time, they must take full advantage of the features and work around the challenges introduced by the new architecture. 
 
-[My CV can be found here](jiwonchoe-cv-industry.pdf). My expected date of graduation is December 2021.
+[My CV can be found here](jiwonchoe-cv-industry.pdf). I plan to defend and complete my PhD journey in February 2022.
 
 
 * * *
 
 # research & publications
 
-## Concurrent Data Structures with Near-Data-Processing
+### Concurrent Data Structures with Near-Memory Processing
 
 * Jiwon Choe, Amy Huang, Tali Moreshet, Maurice Herlihy, R. Iris Bahar. **Concurrent Data Structures with Near-Data-Processing: an Architecture-Aware Implementation**. In _31st ACM Symposium on Parallelism in Algorithms and Architectures (SPAA 2019)_. [[pdf](spaa19-choe.pdf)][[practice talk](https://youtu.be/trjnYpnq8t4)]
 * Jiwon Choe, Tali Moreshet, Maurice Herlihy, R. Iris Bahar. **Hybrid Skiplists: Combining the Best of Near-Data-Processing and Lock-Free Algorithms**. _MICRO-52 Student Research Competition_. [[poster](micro19-poster-final.pdf)]
 
-I am interested in improving the performance and energy efficiency of general-purpose concurrent data structures with _Near-Data-Processing (NDP)_. 
+<!--I am interested in improving the performance and energy efficiency of general-purpose concurrent data structures with _Near-Data-Processing (NDP)_. -->
 
-In the _SPAA '19_ paper, NDP-based concurrent data structures that leverage the flat-combining synchronization scheme were implemented and evaluated on [Brown-SMCSim](https://github.com/jiwon-choe/Brown-SMCSim), a cycle-accurate, full-system NDP architecture simulator. 
+In the _SPAA '19_ paper, NMP-based concurrent data structures that leverage the flat-combining synchronization scheme were implemented and evaluated on [Brown-SMCSim](https://github.com/jiwon-choe/Brown-SMCSim), a cycle-accurate, full-system NMP architecture simulator. 
 This yielded a more realistic and detailed performance, energy, and power analysis, compared to prior theoretical analysis. We showed that lightweight hardware modifications can significantly improve the performance and energy consumption of NDP-based concurrent data structures, even without any algorithmic changes. In many cases, the resulting data structures outperform state-of-the-art concurrent data structures.
 
-More recently, I have been looking into how _"large yet cache-friendly"_ concurrent data structures can be integrated with NDP, in order to take advantage of concurrency, host processor cache locality, and computation near memory. The poster on **hybrid skiplists** summarizes the preliminary work in this direction. 
+More recently, I have been looking into how _"large yet cache-friendly"_ concurrent data structures can be integrated with NMP, in order to take advantage of concurrency, host processor cache locality, and computation near memory. The poster on **hybrid skiplists** summarizes the preliminary work in this direction. 
 
 
-## Impact of Compute-Capable Memory on Memory-Hard Cryptographic Functions
+### Impact of Compute-Capable Memory on Memory-Hard Cryptographic Functions
 
 * Jiwon Choe, Tali Moreshet, R. Iris Bahar, Maurice Herlihy. **Attacking Memory-Hard Scrypt with Near-Data-Processing** (extended abstract). In _The International Symposium on Memory Systems (MEMSYS 2019)_. [[pdf](memsys19-choe.pdf)][[practice talk](https://youtu.be/94dx7xmZBAM)]
 
 The fact that memory access operations require much more time and energy than simple logic operations in a traditional DRAM-based main memory architecture is exploited to build time-consuming and power-hungry _memory-hard_ cryptographic functions, which serve the purpose of hindering brute-force security attacks. 
 
-The security of these memory-hard functions depend entirely on the non-trivial costs of memory access. However, various compute-capable memory technologies have recently emerged as promising ways around the memory wall. As a preliminary investigation into how compute-capable memory can impact the security of memory-hard functions, we looked into _scrypt_, a widely-used memory-hard PBKDF, and how it can be accelerated with near-data-processing. 
+The security of these memory-hard functions depend entirely on the non-trivial costs of memory access. However, various compute-capable memory technologies have recently emerged as promising ways around the memory wall. As a preliminary investigation into how compute-capable memory can impact the security of memory-hard functions, we looked into _scrypt_, a widely-used memory-hard PBKDF, and how it can be accelerated with near-memory processing. 
 
 * * *
 
