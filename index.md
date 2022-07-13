@@ -2,34 +2,30 @@
 layout: default
 ---
 
-Hi! I am a 6th year PhD student in the Computer Science department at Brown University, 
-co-advised by professors [Iris Bahar](https://vivo.brown.edu/display/rbahar) and [Maurice Herlihy](http://cs.brown.edu/~mph/).
+Hello! I am a recent PhD grad from the Computer Science department at Brown University.
+During my PhD, I was co-advised by professors [Iris Bahar](https://people.mines.edu/ribahar/) and [Maurice Herlihy](http://cs.brown.edu/~mph/).
 
-My research interests are at the intersection of computer architecture and concurrent computing. 
-I am particularly interested in the **hardware-software co-design** of **concurrent data structures** with **near-memory processing (NMP)** architectures. 
-This is an exciting area of research, because the **NMP-aware data structures** must be carefully designed to preserve the high concurrency, correctness guarantees, and at times high on-chip cache locality provided by existing data structures which are highly optimized for conventional architectures. At the same time, they must take full advantage of the features and work around the challenges introduced by the new architecture. 
+My doctoral research was focused on the **hardware-software co-design** of **concurrent data structures** with **near-memory processing (NMP)** architectures.
+This was a challenging problem, for the **NMP-aware data structures** had be carefully designed to preserve the high concurrency, correctness guarantees, and at times high on-chip cache locality provided by existing data structures which are highly optimized for conventional architectures. At the same time, they must take full advantage of the features and work around the challenges introduced by the new architecture. 
 
-[My CV can be found here](jiwonchoe-cv-industry.pdf). I plan to defend and complete my PhD journey in February 2022.
+I am now a software engineer at Apple. I am part of a team that builds SoC simulations for Apple hardware-- if you are interested in joining our team, please send me an email with your resume.
 
 
 * * *
 
-# research & publications
+# publications
 
-### Concurrent Data Structures with Near-Memory Processing
-
+#### Concurrent Data Structures with Near-Memory Processing
+* Jiwon Choe, Andrew Crotty, Tali Moreshet, Maurice Herlihy, R. Iris Bahar. **HybriDS: Cache-Conscious Concurrent Data Structures for Near-Memory Processing Architectures**. In _34th ACM Symposium on Parallelism in Algorithms and Architectures (SPAA 2022)_. [[pdf](spaa2022-choe.pdf)]
 * Jiwon Choe, Amy Huang, Tali Moreshet, Maurice Herlihy, R. Iris Bahar. **Concurrent Data Structures with Near-Data-Processing: an Architecture-Aware Implementation**. In _31st ACM Symposium on Parallelism in Algorithms and Architectures (SPAA 2019)_. [[pdf](spaa19-choe.pdf)][[practice talk](https://youtu.be/trjnYpnq8t4)]
-* Jiwon Choe, Tali Moreshet, Maurice Herlihy, R. Iris Bahar. **Hybrid Skiplists: Combining the Best of Near-Data-Processing and Lock-Free Algorithms**. _MICRO-52 Student Research Competition_. [[poster](micro19-poster-final.pdf)]
 
-<!--I am interested in improving the performance and energy efficiency of general-purpose concurrent data structures with _Near-Data-Processing (NDP)_. -->
+In the SPAA '19 paper, NMP-based concurrent data structures that leverage the flat-combining synchronization scheme were implemented and evaluated on [Brown-SMCSim](https://github.com/jiwon-choe/Brown-SMCSim), a cycle-accurate, full-system NMP architecture simulator. 
+This yielded a more realistic and detailed performance, energy, and power analysis, compared to prior theoretical analysis. We showed that lightweight hardware modifications can significantly improve the performance and energy consumption of NMP-based concurrent data structures, even without any algorithmic changes. In many cases, the resulting data structures outperform state-of-the-art concurrent data structures.
 
-In the _SPAA '19_ paper, NMP-based concurrent data structures that leverage the flat-combining synchronization scheme were implemented and evaluated on [Brown-SMCSim](https://github.com/jiwon-choe/Brown-SMCSim), a cycle-accurate, full-system NMP architecture simulator. 
-This yielded a more realistic and detailed performance, energy, and power analysis, compared to prior theoretical analysis. We showed that lightweight hardware modifications can significantly improve the performance and energy consumption of NDP-based concurrent data structures, even without any algorithmic changes. In many cases, the resulting data structures outperform state-of-the-art concurrent data structures.
-
-More recently, I have been looking into how _"large yet cache-friendly"_ concurrent data structures can be integrated with NMP, in order to take advantage of concurrency, host processor cache locality, and computation near memory. The poster on **hybrid skiplists** summarizes the preliminary work in this direction. 
+The SPAA '22 paper addresses the limitation of NMP-based data structures found in the SPAA '19 paper. Hierarchical data structures that benefit from on-chip cache locality could result in reduced performance when all pointer-chasing activity is offloaded to near-memory compute units of the NMP architecture. In the SPAA '22 work, we present **NMP-hybrid** algorithms of such hierarchical data structures, which take advantage of both the on-chip cache locality of hierarchical data structures and the benefits of NMP architecture.
 
 
-### Impact of Compute-Capable Memory on Memory-Hard Cryptographic Functions
+#### Impact of Compute-Capable Memory on Memory-Hard Cryptographic Functions
 
 * Jiwon Choe, Tali Moreshet, R. Iris Bahar, Maurice Herlihy. **Attacking Memory-Hard Scrypt with Near-Data-Processing** (extended abstract). In _The International Symposium on Memory Systems (MEMSYS 2019)_. [[pdf](memsys19-choe.pdf)][[practice talk](https://youtu.be/94dx7xmZBAM)]
 
